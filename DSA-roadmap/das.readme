@@ -1,0 +1,44 @@
+
+DSA: Data Structure and Algorithms
+    -> Data Structures Manages how data is stored and accessed
+    -> Algorithms focus on processing this data
+    
+Time Complexity and Space Complexity
+
+    Time Complexity: Time Complexity quantifies the amount of time taken by an algorithm to run
+
+    Space Complexity: The space complexity of an algorithm quantifies the amount of space taken 
+    by an algorithm to run as a function
+
+Auxiliary space quantifies the extra space that is used in the algorithm apart from the given input
+
+
+1. Constant Time Complexity O(1):
+    example:
+        for (var i = 1; i <= c; i++) {
+            // some O(1) expressions
+        }
+
+2. Linear Time Complexity O(n):
+    example: 
+        for (var i = 1; i <= n; i += c) {
+            // some O(1) expressions
+        }
+
+        for (var i = n; i > 0; i -= c) {
+            // some O(1) expressions
+        }
+
+3. Quadratic Time Complexity O(nc):
+    example:
+        for (var i = 1; i <= n; i += c) {
+            for (var j = 1; j <= n; j += c) {
+                // some O(1) expressions
+            }
+        }
+
+        for (var i = n; i > 0; i -= c) {
+            for (var j = i + 1; j <= n; j += c) {
+                // some O(1) expressions
+            }
+        }
